@@ -1,16 +1,8 @@
-# Previsões:
-# 1: 12 + 3
-# 2: 15
-# 3: Resultado: 15
-# 4: 12 3
-
 print("12 + 3")
 print(12 + 3)
 print("Resultado:", 12 + 3)
 print("12", "3")
 
-# A primeira linha mostra um texto.
-# A segunda realiza uma soma entre números inteiros.
 
 
 nome_oficina = "Robótica para iniciantes"
@@ -32,11 +24,6 @@ print(type(quantidade_vagas))
 print(type(duracao_horas))
 print(type(inscricoes_abertas))
 
-# str representa textos.
-# int representa números inteiros.
-# float representa números decimais.
-# bool representa valores True ou False.
-
 preco_pizza = 48.00
 preco_bebida = 12.00
 quantidade_amigos = 4
@@ -47,10 +34,6 @@ valor_por_pessoa = total_conta / quantidade_amigos
 print("Total da conta: R$", total_conta)
 print("Valor por pessoa: R$", valor_por_pessoa)
 print("Tipo do valor por pessoa:", type(valor_por_pessoa))
-
-# A divisão com / retorna um float.
-
-# Previsões: 40, 52, 43, 47 e 41 livros.
 
 livros_disponiveis = 40
 print("Quantidade inicial:", livros_disponiveis)
@@ -82,26 +65,22 @@ print("Nota 2:", nota_2)
 print("Nota 3:", nota_3)
 print("Média:", media)
 
-# Para testar novamente, altere nota_2 para 6.5.
 
-# Nomes de variáveis não podem conter espaços.
 nome_curso = "Python básico"
 
-# Números decimais utilizam ponto.
 mensalidade = 89.90
 
-# Booleanos utilizam True ou False.
+
 matricula_ativa = True
 
 print("Curso:", nome_curso)
 
-# Python diferencia letras maiúsculas e minúsculas.
+
 print("Mensalidade:", mensalidade)
 
 print("Matrícula ativa:", matricula_ativa)
 print("Tipo da mensalidade:", type(mensalidade))
 
-# Previsões: saldo anterior = 80; saldo atual = 65 e depois 50.
 
 saldo = 80
 saldo_anterior = saldo
@@ -112,7 +91,7 @@ saldo = saldo + 10
 print("Saldo anterior:", saldo_anterior)
 print("Saldo atual:", saldo)
 
-# saldo_anterior mantém o valor recebido na atribuição.
+
 saldo = saldo - 15
 
 print("Saldo anterior após a despesa:", saldo_anterior)
@@ -135,8 +114,6 @@ print("Custo dos lanches: R$", custo_lanches)
 print("Custo total: R$", custo_total)
 print("Valor por aluno: R$", valor_por_aluno)
 
-# Altere quantidade_alunos para 25 e execute novamente.
-# O custo total aumenta, mas o ônibus é dividido entre mais alunos.
 
 informacao = "42"
 print("Valor:", informacao)
@@ -154,8 +131,6 @@ informacao = False
 print("Valor:", informacao)
 print("Tipo:", type(informacao))
 
-# "42" é texto; 42 é um número inteiro.
-# A variável guarda apenas o último valor atribuído.
 
 
 nome_robo = "Atlas"
